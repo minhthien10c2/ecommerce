@@ -1,8 +1,10 @@
-const home = props => {
+import Header from "../../components/header"
+
+const Home = props => {
     return(
         <>
-            home
+            <Header />
         </>
     )
 }
-export default home
+export default Home
