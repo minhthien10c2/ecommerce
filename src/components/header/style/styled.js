@@ -1,15 +1,25 @@
 import styled from 'styled-components'
 
+export const Container = styled.div`
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @media (min-width: 1200px) {
+        max-width: 1150px;
+        width: 1150px;
+    }
+
+    @media (max-width: 1199.98px){
+        padding: 0px 50px;
+        width: 100%
+    }
+`
+
 export const HeaderTop = styled.div`
     height: 40px;
     background: #364146 0% 0% no-repeat padding-box;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    @media (min-width: 1200px) {
-        padding: 0px 150px;
-    }
 `
 
 export const Phone = styled.p`

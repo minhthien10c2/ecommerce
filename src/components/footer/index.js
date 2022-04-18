@@ -17,10 +17,10 @@ const Header = (props) => {
               src="https://png.pngtree.com/png-clipart/20190515/original/pngtree-coffee-time-png-image_3626459.jpg"
               alt="https://png.pngtree.com/png-clipart/20190515/original/pngtree-coffee-time-png-image_3626459.jpg"
             />
-            <a class="about-us" href="#">
+            <a className="about-us" href="#">
               Về chúng tôi
             </a>
-            <a class="blog" href="#">
+            <a className="blog" href="#">
               Blog
             </a>
             <ul>
@@ -87,12 +87,12 @@ const Header = (props) => {
         </FooterTop>
         <Copyright>
           <hr />
-          <div class="copyright-container">
+          <div className="copyright-container">
             <p>Powered by ...</p>
-            <div class="payment">
-              <img src="" alt="" srcset="" />
-              <img src="" alt="" srcset="" />
-              <img src="" alt="" srcset="" />
+            <div className="payment">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
             </div>
           </div>
         </Copyright>
