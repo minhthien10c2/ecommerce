@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Form = styled.div`
+export const Form = styled.form`
     width: 300px;
     height: 400px;
     border: 1px solid black;
@@ -56,11 +56,12 @@ export const Btn = styled.div`
     }
 `
 
-export const BtnLogin = styled.a`
+export const BtnLogin = styled.button`
     padding: 10px 11px;
-    max-width: 70px;
+    max-width: 100px;
     background-color: green;
     color: white;
+    border: none;
     font-size: 14px;
     outline: none;
     text-dicoration: none;
